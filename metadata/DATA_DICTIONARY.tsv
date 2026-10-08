@@ -1,0 +1,2 @@
+file	field	meaning	type	missing_semantics	license
+input/common_essential_exclusion/CRISPRInferredCommonEssentials.csv	Essentials	DepMap 24Q4 source-list field; interpret using the original item documentation.	text	As encoded in the source file	CC BY 4.0 (exact Figshare+ item 27993248)

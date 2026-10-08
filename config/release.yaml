@@ -1,0 +1,17 @@
+project: ASD_PPI_CRISPR
+release_status: READY_FOR_FIRST_PUBLIC_PUSH
+software_version: 1.0.0
+code_license: MIT
+code_license_file: LICENSE
+code_rights_basis: author confirmation for original team-owned code on 2026-10-08
+dataset_version: 1.0.0
+data_doi: 10.5281/zenodo.23230371
+data_doi_url: https://doi.org/10.5281/zenodo.23230371
+data_doi_type: Zenodo dataset version DOI; not software or manuscript DOI
+dataset_license: CC BY 4.0 for rights-cleared original aggregates; original third-party license retained
+repository_url: https://github.com/aojielian/ASD_PPI_CRISPR
+repository_owner_and_name_status: public empty repository verified on 2026-10-08 before the first push
+software_doi_status: NOT_ASSIGNED
+authors_and_citation_status: not populated; exact project-specific author list not verified
+data_directory: ${ASD_PPI_DATA_DIR}
+output_directory: explicit --outdir required

@@ -1,0 +1,10 @@
+resource_id	citation	accession_or_version	official_url	license_and_evidence	package_action
+DepMap_24Q4	Broad DepMap Public 24Q4	Figshare+ dataset item 27993248; file CRISPRInferredCommonEssentials.csv	https://plus.figshare.com/articles/dataset/DepMap_24Q4_Public/27993248	CC BY 4.0 at exact item record	Included unchanged in Zenodo Dataset v1.0.0; original attribution retained; not bundled in the GitHub code tree.
+Activity_CROPseq	Boggess et al., Nature Communications 2026	GSE289235; GSM8787485 EXP224	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8787485	Article CC BY 4.0 does not by itself resolve exact GEO file/derivative terms	Not included; official acquisition guide only
+Gordon_organoid	Gordon et al., Nature 2026	DOI 10.1038/s41586-025-10047-5	https://www.nature.com/articles/s41586-025-10047-5	Exact source-data member scope remains unverified	Not included
+ASD_PPI_APMS	Science ASD-PPI/AP-MS source study	DOI 10.1126/science.ady4523	https://doi.org/10.1126/science.ady4523	Exact supplementary file and reuse terms unconfirmed	Not included
+BioPlex	BioPlex official resource	BioPlex 3.0	https://bioplex.hms.harvard.edu/data/	Local source-file redistribution terms unconfirmed	Not included
+IGVF_PerturbSeq	Gogate et al. preprint	DOI 10.64898/2026.09.02.748925 v1	https://www.biorxiv.org/content/10.64898/2026.09.02.748925v1	CC BY-NC 4.0 preprint context; mixed derived file scope unresolved	Not included
+In_vivo_Neuron	Neuron in-vivo source study	DOI 10.1016/j.neuron.2026.08.006	https://doi.org/10.1016/j.neuron.2026.08.006	Exact local source table reuse terms unconfirmed	Not included
+Wamsley_Dryad	Wamsley et al. Data S1	Dryad DOI 10.5061/dryad.4b8gthtkr	https://datadryad.org/dataset/doi:10.5061/dryad.4b8gthtkr	Dryad record states CC0; local member-to-derived-file mapping incomplete	No workbook included
+Velmeshev_cortex	Velmeshev et al. human cortex	Frozen gene-level summary source	Official article/source repository must be checked at exact file level	Redistribution terms and derived-summary scope unresolved; donor lineage restricted	Not included; donor data/crosswalk withheld

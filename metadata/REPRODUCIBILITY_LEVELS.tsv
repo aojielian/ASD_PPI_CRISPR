@@ -1,0 +1,16 @@
+layer	status	evidence_and_limit
+zenodo_dataset_archive	VERIFIED_LOCAL_ARCHIVE_ONLY	Local archive ASD_PPI_CRISPR_Zenodo_Data_v1.0.0.zip; SHA-256 296c2a5675f5c8c29c86da2a78f39b6381c63469389c012fae607977d63c4cfd; 45 aggregate TSVs plus the exact DepMap CSV; embedded SHA256SUMS and ZIP CRC checked. Public record metadata could not be retrieved in this QA.
+public_code_syntax	PYTHON_COMPILE_AND_UPSTREAM_R_PARSE	Published Python scripts were compiled in the package build; prior Codex QA reported R parse success for the unchanged R source. This release build did not rerun R.
+bundled_release_tests	PASS_STDLIB_UNITTEST	Included Python unittest cases are executable without pytest or any external analysis input; results must be rerun after checkout on the user machine. No scientific model is executed.
+activity_baseline_extraction	CODE_READY_INPUTS_EXTERNAL	Portable extractor preserves the frozen algorithm and checks exact source hashes; H5AD and full gene-level inputs are not in the data deposit.
+activity_model	MODEL_NOT_RERUN_INPUTS_NOT_INCLUDED	Frozen aggregate outputs only; complete-case gene-level model input is not deposited; no model refit.
+igvf_firth_models	MODEL_NOT_RERUN_INPUTS_NOT_INCLUDED	N=623 and N=610 outputs remain frozen; source inputs are not deposited; no model refit.
+igvf_expression_loeuf_primary	NOT_RUN_NA_PRESERVED	The primary expression-plus-LOEUF sensitivity remains NOT_RUN/NA; the Holm bookkeeping value is not an observed P value.
+invivo_group_summaries	DETERMINISTIC_ONLY	Frozen common-essential exclusion output retains original within-condition ranks; no new model, reranking, permutation, or bootstrap.
+random_inference	NOT_RERUN	Permutation, bootstrap, Gordon assignment, and ROMER jobs were not run for this release.
+figure_redraw	NOT_REBUILT_SOURCE_TREE_REQUIRED	Formal figures are not included; renderer needs the unbundled hash-bound source tree and external inputs. R8.2 S12B expected path issue remains unresolved; no substitute used.
+selected_S11_tables	COPY_ONLY_SELECTED_AGGREGATES	12 selected aggregate S11 tables are in the data deposit. reproduce_tables.py only copies supplied clean files after rights and hash checks; it does not recalculate them.
+scientific_values	FROZEN_BYTE_PRESERVED	Data archive SHA256SUMS and file provenance describe the selected frozen result files; no scientific values were modified or recalculated.
+data_doi_metadata	USER_PROVIDED_NOT_INDEPENDENTLY_FETCHED	Depositor supplied version DOI 10.5281/zenodo.23230371. DOI resolver, Zenodo landing/API, and DataCite lookup were inaccessible in public browsing during this QA; no replacement DOI used.
+software_license	AUTHOR_APPROVED_MIT	Author confirmed rights to publish original team-owned software under MIT on 2026-10-08; LICENSE included; third-party inputs are not relicensed.
+github_repository_identity	VERIFIED_PUBLIC_REPOSITORY	https://github.com/aojielian/ASD_PPI_CRISPR verified as a public empty repository at package build on 2026-10-08; no push performed by the package builder.

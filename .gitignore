@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.venv/
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+results/
+data/
+*.pdf
+*.png
+*.svg
+*.xlsx
+*.docx

@@ -1,0 +1,34 @@
+{
+  "project": "ASD_PPI_CRISPR",
+  "release_status": "READY_FOR_FIRST_PUBLIC_PUSH",
+  "software_version": "1.0.0",
+  "software_license_status": "AUTHOR_APPROVED_MIT_2026-10-08",
+  "dataset": {
+    "resource_type": "dataset",
+    "version": "1.0.0",
+    "doi": "10.5281/zenodo.23230371",
+    "doi_url": "https://doi.org/10.5281/zenodo.23230371",
+    "identifier_type": "data DOI; not a software or manuscript DOI",
+    "publication_status": "published as reported by depositor; official record metadata could not be retrieved during local QA",
+    "license": "CC BY 4.0 for author-derived contributions to the extent depositors hold the relevant rights; DepMap CSV retains its original CC BY 4.0 terms",
+    "local_archive_sha256": "296c2a5675f5c8c29c86da2a78f39b6381c63469389c012fae607977d63c4cfd",
+    "data_file_counts": {
+      "author_derived_aggregate_tsvs": 45,
+      "S11": 12,
+      "R6_main_panel_summaries": 20,
+      "R8_2_supplementary_panel_summaries": 13,
+      "DepMap_source_csv": 1
+    }
+  },
+  "code_license": "MIT",
+  "repository_url": "https://github.com/aojielian/ASD_PPI_CRISPR",
+  "repository_owner_and_name_status": "VERIFIED_PUBLIC_EMPTY_REPOSITORY_AT_PACKAGE_BUILD",
+  "software_doi_status": "NOT_ASSIGNED",
+  "authors_and_citation_status": "NOT_POPULATED; verified authorship/citation metadata unavailable",
+  "scientific_values_changed": false,
+  "data_scope": "selected frozen aggregate results and figure-panel summaries; not a full raw-data or complete analysis-ready release",
+  "reproducibility_limit": "full model and figure reproduction requires external inputs and the unbundled hash-bound source tree; R8.2 S12B expected path is unresolved",
+  "code_license_file": "LICENSE",
+  "code_rights_basis": "Author confirmed rights to license original team-owned code under MIT on 2026-10-08; external source material retains upstream licenses.",
+  "package_build_remote_actions_executed": false
+}
